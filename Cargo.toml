@@ -8,6 +8,7 @@ crate-type = ["cdylib"]
 
 [dependencies]
 worker = "0.8.7"
+switchyard-translation = { git = "https://github.com/NVIDIA-NeMo/Switchyard", rev = "a601a9a3f9db149a1ad430fa43b1463a170c8a82" }
 
 [dev-dependencies]
 wrangler = "1.21.0"
